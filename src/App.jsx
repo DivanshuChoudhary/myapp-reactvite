@@ -1,32 +1,15 @@
-import { useState } from "react";
-import Profile from "./Profile";
+import "./index.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div>
-      <h1>Student Profiles</h1>
+    <div className="container">
+      <h1>Divanshu Choudhary</h1>
 
-      <Profile name="Divanshu" course="B.Tech" />
-      <Profile name="Rahul" course="BCA" />
-      <Profile name="Aman" course="BSc" />
+      <h3>B.Tech Student</h3>
 
-      <hr />
+      <p>Learning React + Vite 🚀</p>
 
-      <h2>Counter: {count}</h2>
-
-      <button onClick={() => setCount(count + 1)}>
-        Increase
-      </button>
-
-      <button onClick={() => setCount(count - 1)}>
-        Decrease
-      </button>
-
-      <button onClick={() => setCount(0)}>
-        Reset
-      </button>
+      <button>Contact Me</button>
     </div>
   );
 }
