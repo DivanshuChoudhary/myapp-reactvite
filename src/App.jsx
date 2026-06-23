@@ -10,6 +10,15 @@ function App() {
       <p>Learning React + Vite 🚀</p>
 
       <button>Contact Me</button>
+
+      <div className="about">
+        <h2>About Me</h2>
+
+        <p>
+          I am a B.Tech student learning Web Development,
+          React and DevOps.
+        </p>
+      </div>
     </div>
   );
 }

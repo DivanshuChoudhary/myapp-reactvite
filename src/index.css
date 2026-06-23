@@ -35,3 +35,15 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.about {
+  margin-top: 40px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.about h2 {
+  margin-bottom: 10px;
+  color: #2563eb;
+}
