@@ -109,3 +109,10 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.card {
+  border: 2px solid black;
+  padding: 15px;
+  margin: 10px;
+  width: 250px;
+}
