@@ -81,3 +81,30 @@ button {
   color: #444;
   line-height: 1.5;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar li {
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navbar li:hover {
+  color: #2563eb;
+}

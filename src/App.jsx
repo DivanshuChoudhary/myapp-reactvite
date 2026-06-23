@@ -3,6 +3,19 @@ import "./index.css";
 function App() {
   return (
     <div className="container">
+
+      <nav className="navbar">
+  <h2>Divanshu Portfolio</h2>
+
+  <ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Skills</li>
+    <li>Projects</li>
+    <li>Contact</li>
+  </ul>
+</nav>
+
       <h1>Divanshu Choudhary</h1>
 
       <h3>B.Tech Student</h3>
