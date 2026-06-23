@@ -1,10 +1,9 @@
-function Profile() {
+function Profile(props) {
   return (
-    <div className="card">
-      <h2>Divanshu</h2>
-      <p>B.Tech Student</p>
-       <p>Learning React + Vite</p>
-    
+    <div>
+      <h2>{props.name}</h2>
+      <p>{props.course} Student</p>
+      <p>Learning React + Vite</p>
     </div>
   );
 }
