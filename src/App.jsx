@@ -7,7 +7,7 @@ function App() {
 
       <h3>B.Tech Student</h3>
 
-      <p>Learning React + Vite 🚀</p>
+      <p>Learning DevOps 🚀</p>
 
       <button>Contact Me</button>
 
@@ -15,9 +15,18 @@ function App() {
         <h2>About Me</h2>
 
         <p>
-          I am a B.Tech student learning Web Development,
-          React and DevOps.
+          I am a B.Tech student learning DevOps, Git and Github .
         </p>
+
+        <div className="skills">
+         <h2>Skills</h2>
+
+         <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Git & GitHub</li>
+         </ul>
+        </div>
       </div>
     </div>
   );
