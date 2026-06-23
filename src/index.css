@@ -108,3 +108,26 @@ button {
 .navbar li:hover {
   color: #2563eb;
 }
+
+.contact {
+  margin-top: 40px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact h2 {
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}

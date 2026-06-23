@@ -69,11 +69,27 @@ function App() {
     <p>
       Cricket score display page with match information layout.
     </p>
+
+    <div className="contact">
+  <h2>Contact</h2>
+
+  <p>Email: choudharydivanshu55@gmail.com</p>
+
+  <p>GitHub: https://github.com/DivanshuChoudhary</p>
+
+  <p>LinkedIn: www.linkedin.com/in/divanshuchoudhary</p>
+
+  <footer className="footer">
+  <p>© 2026 Divanshu Choudhary</p>
+</footer>
+</div>
   </div>
 </div>
         </div>
       </div>
     </div>
+
+    
   );
 }
 
